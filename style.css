@@ -26,10 +26,12 @@ body{
 }
 li{
     padding: 10px;
+    font-weight: bolder;
 }
 .logo{
     margin-left: 500px;
     margin-top: 18px;
+    font-weight: bolder;
 }
 .socialmedia{
     margin-left: 700px;
@@ -37,4 +39,25 @@ li{
 }
 .socialmedia > a{
     padding-right: 20px;
+}
+.main{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.left > .intro{
+    font-size: xx-large; 
+    color:#4390bc;   
+}
+.right > img{
+    height: 700px;
+    margin-top: 100px;
+    border-radius: 50px;
+}
+.left > .intro > span{
+    font-size: 50px;
+}
+.left > .info{
+    color: #4390bc;
+    font-size: large;
 }
